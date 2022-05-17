@@ -58,7 +58,7 @@ void delete(){
     scanf("%d",&pos);
     pos=pos-1; //matching the index value
     ele=a[pos];
-    for(i=pos;i<=n;i++)
+    for(i=pos;i<n-1;i++)
     a[i]=a[i+1];
     n=n-1;
     printf("The deleted element is:%d\n",ele);
